@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FCIS - Sign Up</title>
+    <link rel="icon" type="image/png" href="img/fcisico.ico">
+    <link type="text/css" rel="stylesheet" href="Homecss.css">
+    <link type="text/css" rel="stylesheet" href="signupcss.css">
+</head>
+<body>
+
+    <header>
+        <div id="header" align="center">
+            <img style="float:left;" src="img/headerfcis.png" width="400" height="100" alt="logo" />
+            <img style="float:right;" src="img/headerAfcis.png" width="400" height="100" alt="logo" />
+            <img style="display:inline;text-align:center;" src="img/ainshamslogo.png" width="100" height="100" alt="logo" />
+        </div>
+        <br />
+        <nav id="nav" align="center">
+            <a href="Home.html">Home</a>
+            <a href="login.html">Log In</a>
+            <a href="SignUp.html">Sign Up</a>
+            <a href="First Grade.html">First Grade</a>
+            <a href="secondgrade.html">Second Grade</a>
+            <a href="thirdgrade.html">Third Grade</a>
+            <a href="credits.html">Credits Hours</a>
+            <a href="admin.html">Admin</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+    
+    <form id="form-signup" onsubmit="return checksubmit(repass(),pass())" >
+        <fieldset>
+            <legend style="font-size: 40px; font-family: Magneto; text-shadow: 12px -9px 9px black; text-align: center">Registration</legend>
+            <label>Name</label>
+            <input type="text" id="name" maxlength="25" value="" placeholder="Enter Your Name" required>
+            <div class="error"></div>
+            <br>
+            <label>Email</label>
+            <input type="email" id="em" placeholder="Enter Your Email " required>
+            <div class="error" align="center"></div>
+            <br>
+            <label>Password</label>
+            <input type="password" id="passwords" placeholder="Enter Your Password" onchange="pass()" required>
+            <div class="error" align="center" id="errorpassword"></div>
+            <br>
+            <label>Repeat Password</label>
+            <input type="password" id="repassword" placeholder="Enter Again Your Password" onchange="repass()" required >
+            <div class="error" align="center" id="errorrepassword"></div>
+            <br>
+            <label>Phone Number</label>
+            <input type="tel" id="phone" pattern="[0-9]{11}" placeholder="Enter Your Phone Number" onchange="Phonee()" required>
+            <div class="error" align="center" id="errorphone"></div>
+            <br>
+            <label>Gender</label>
+            <div id="radio"><input type="radio" name="gender"value="male"required> <span class="g">Male</span>
+            <input type="radio" name="gender" value="female" required> <span class="g">Female</span></div> 
+            <br>
+            <button class="submit" type="submit" value="submit">Submit</button>
+            <button class="reset" type="reset">Reset</button>
+        </fieldset>
+    </form>
+    <script src="signupjs.js"></script>
+</body>
+</html>

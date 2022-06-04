@@ -1,0 +1,9 @@
+D:\About FCIS web page Design\FCIS\FCIS\bin\FCIS.dll.config
+D:\About FCIS web page Design\FCIS\FCIS\bin\FCIS.dll
+D:\About FCIS web page Design\FCIS\FCIS\bin\FCIS.pdb
+D:\About FCIS web page Design\FCIS\FCIS\bin\FCIS.xml
+D:\About FCIS web page Design\FCIS\FCIS\obj\Debug\FCIS.Resources.resources
+D:\About FCIS web page Design\FCIS\FCIS\obj\Debug\FCIS.vbproj.GenerateResource.Cache
+D:\About FCIS web page Design\FCIS\FCIS\obj\Debug\FCIS.dll
+D:\About FCIS web page Design\FCIS\FCIS\obj\Debug\FCIS.xml
+D:\About FCIS web page Design\FCIS\FCIS\obj\Debug\FCIS.pdb

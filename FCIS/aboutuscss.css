@@ -1,0 +1,29 @@
+﻿.sitemakers{
+            color:aliceblue;
+            padding:20px;
+            font-size:40px;
+            float:unset;
+            margin:50px;
+            border-color:purple
+          }
+
+        th{
+            color:rosybrown;
+        }
+        .differentcolor1 {
+            color: rosybrown;
+        }
+        .differentcolor2{
+
+            color:aliceblue;
+        }
+        body {
+            background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/bgimg.jpg);
+        }
+        .projectidea{
+            color:aliceblue;
+            width:1000px;
+            font-size:x-large;
+            border-width:thick;
+            border-color :purple;
+        }

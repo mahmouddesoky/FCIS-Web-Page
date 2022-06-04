@@ -1,0 +1,55 @@
+﻿body {
+}
+
+#form-login
+{
+
+     padding:50px 400px;
+     color:white;
+     box-sizing: border-box;
+}
+label#password,label#email
+{
+    display:block;
+    font:bold italic 25px verdana;
+}
+input[type=text],input[type=password],input[type=email]
+{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius:4px;
+    font-family:monospace;
+    font-size:15px;
+}
+#rememberme
+{
+    display:inline;
+        font:bold normal 15px verdana;
+}
+#forgetpass
+{
+    float:right;
+        font:bold normal 15px verdana;
+}
+button
+{
+     color: black;
+     padding: 14px 20px;
+     margin: 8px 50px;
+     border: none;
+     cursor: pointer;
+     width: 80%;
+     opacity: 1;
+     display:inline;
+     background-color: #25c722;
+     color: #ffffff;
+
+}
+#signup
+{
+    font-size:15px;
+    font-family:'Bell MT';
+}

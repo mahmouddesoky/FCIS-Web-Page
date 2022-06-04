@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FCIS - Admin</title>
+    <link rel="icon" type="image/png" href="img/fcisico.ico">
+    <link type="text/css" rel="stylesheet" href="Homecss.css">
+    <link type="text/css" rel="stylesheet" href="admincss.css">
+</head>
+<body>
+
+    <header>
+        <div id="header" align="center">
+            <img style="float:left;" src="img/headerfcis.png" width="400" height="100" alt="logo" />
+            <img style="float:right;" src="img/headerAfcis.png" width="400" height="100" alt="logo" />
+            <img style="display:inline;text-align:center;" src="img/ainshamslogo.png" width="100" height="100" alt="logo" />
+        </div>
+        <br />
+        <nav id="nav" align="center">
+            <a href="Home.html">Home</a>
+            <a href="login.html">Log In</a>
+            <a href="SignUp.html">Sign Up</a>
+            <a href="First Grade.html">First Grade</a>
+            <a href="secondgrade.html">Second Grade</a>
+            <a href="thirdgrade.html">Third Grade</a>
+            <a href="credits.html">Credits Hours</a>
+            <a href="admin.html">Admin</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+    <div id="content-admin">
+            <h3>List Courses in FCIS</h3>
+            <div id="admin">
+                <p id="1" class="elem" onclick="getmousee(this)">Intro</p>
+                <p id="2" class="elem" onclick="getmousee(this)">Physics</p>
+            </div>
+            <div class="adminadds">
+                <input type="button" value="Delete" id="delete" onclick="deleteclickk()" class="adminchoices">
+                <input type="button" value="Edit" id="edit" onclick="editclickk()" class="adminchoices">
+                <input type="button" value="Add" id="add" onclick="addclickk()" class="adminchoices">
+                <input type="text" id="test" placeholder="Add Anything..." class="adminchoices">
+            </div>
+    </div>
+    <script src="adminjs.js"></script>
+    
+</body>
+</html>
